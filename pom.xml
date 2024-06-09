@@ -9,6 +9,8 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>demo1-handleMapping</module>
+        <module>demo2-argResolver</module>
+        <module>demo3-returnResolver</module>
     </modules>
 
     <properties>
