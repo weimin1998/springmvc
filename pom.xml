@@ -11,6 +11,7 @@
         <module>demo1-handleMapping</module>
         <module>demo2-argResolver</module>
         <module>demo3-returnResolver</module>
+        <module>demo4-dataTypeConvert</module>
     </modules>
 
     <properties>
