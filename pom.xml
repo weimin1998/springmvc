@@ -12,6 +12,7 @@
         <module>demo2-argResolver</module>
         <module>demo3-returnResolver</module>
         <module>demo4-dataTypeConvert</module>
+        <module>demo5-controllerAdvice</module>
     </modules>
 
     <properties>
