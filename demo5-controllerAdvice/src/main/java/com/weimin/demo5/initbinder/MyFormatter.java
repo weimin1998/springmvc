@@ -1,4 +1,4 @@
-package com.weimin.demo5;
+package com.weimin.demo5.initbinder;
 
 import org.springframework.format.Formatter;
 
