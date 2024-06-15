@@ -13,6 +13,7 @@
         <module>demo3-returnResolver</module>
         <module>demo4-dataTypeConvert</module>
         <module>demo5-controllerAdvice</module>
+        <module>demo6-servletInvocationHandlerMethod</module>
     </modules>
 
     <properties>
