@@ -1,0 +1,7 @@
+顾名思义，是对controller的增强，有四种方面的增强
+
+1.@ExceptionHandler，全局异常处理
+2.@ModelAttribute，方法的返回值会作为模型数据，补充到控制器的执行过程中
+3.@InitBinder，添加自定义的类型转换器
+
+4.补充，ResponseBodyAdvice，RequestBodyAdvice，对请求体、响应体做处理

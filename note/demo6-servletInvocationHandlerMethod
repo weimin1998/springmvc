@@ -1,0 +1,9 @@
+HandlerAdapter最重要的功能，就是执行控制器方法。
+
+1.HandlerMethod就代表控制器方法，其中bean代表控制器对象，method代表控制器方法对象，这样将来就可以通过反射执行方法；
+2.当然，想要反射执行方法，需要确定方法参数，这就需要参数解析器 。根据控制器方法参数的类型，标注的注解等等，从请求对象或者spring容器中，获得参数；参数解析器有多个，因此组合起来，方便调用
+3.有的参数解析器在解析参数的时候需要 数据绑定以及类型转换，由webDataBinderFactory负责
+4.parameterNameDiscoverer负责参数名解析
+5.控制器方法执行完后，需要处理返回值。因为springmvc要求返回值需要统一成mav类型。
+
+servletInvocationHandlerMethod或继承、或组合了上述所有的组件。而RequestMappingHandlerAdapter就是使用它来调用控制器方法
