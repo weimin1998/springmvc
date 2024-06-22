@@ -15,6 +15,7 @@
         <module>demo5-controllerAdvice</module>
         <module>demo6-servletInvocationHandlerMethod</module>
         <module>demo7-messageConverter</module>
+        <module>demo8-exceptionHandle</module>
     </modules>
 
     <properties>
