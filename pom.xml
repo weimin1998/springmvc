@@ -16,6 +16,7 @@
         <module>demo6-servletInvocationHandlerMethod</module>
         <module>demo7-messageConverter</module>
         <module>demo8-exceptionHandle</module>
+        <module>demo9-otherMappingAndAdapter</module>
     </modules>
 
     <properties>
